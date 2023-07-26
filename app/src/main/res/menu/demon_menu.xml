@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/demonListFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_katana"
+        android:title="Demon Slayer" />
+
+    <item
+        android:id="@+id/demonFavoriteFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favoritos" />
+
+    <item
+        android:id="@+id/infoFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_info"
+        android:title="Info" />
+
+</menu>

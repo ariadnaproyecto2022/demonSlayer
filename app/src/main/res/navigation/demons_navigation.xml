@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/demons_navigation"
+    app:startDestination="@id/demonListFragment">
+
+    <fragment
+        android:id="@+id/demonListFragment"
+        android:name="com.oropeza.ec3_asot.view.fragmets.DemonListFragment"
+        android:label="fragment_demon_list"
+        tools:layout="@layout/fragment_demon_list" >
+        <action
+            android:id="@+id/action_demonListFragment2_to_demonDetailFragment"
+            app:destination="@id/demonDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/demonFavoriteFragment"
+        android:name="com.oropeza.ec3_asot.view.fragmets.DemonFavoriteFragment"
+        android:label="fragment_demon_favorite"
+        tools:layout="@layout/fragment_demon_favorite" >
+        <action
+            android:id="@+id/action_demonFavoriteFragment2_to_demonDetailFragment"
+            app:destination="@id/demonDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.oropeza.ec3_asot.view.fragmets.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/demonDetailFragment"
+        android:name="com.oropeza.ec3_asot.view.fragmets.DemonDetailFragment"
+        android:label="fragment_demon_detail"
+        tools:layout="@layout/fragment_demon_detail" />
+</navigation>
